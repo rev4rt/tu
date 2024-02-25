@@ -35,8 +35,11 @@ function WeddingEvents() {
                   </p>
                   <p className="text-[0.785rem] text-[#5a5a5a] font-light leading-[1.9]">
                     <strong className="text-black font-bold">
-                      Dusun Duwa' Assen - Batioh
+                    Rumah Kami
                     </strong>
+                    <br>
+                    Dusun Duwa' Assen - Batioh
+                    </br>
                   </p>
                   <a
                     href="https://maps.app.goo.gl/Nadp4o3ALL16yubp9"
