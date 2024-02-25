@@ -20,7 +20,7 @@ function WeddingEvents() {
               />
               <div className="flex">
                 <div className="w-[20%] bg-[#424242] rounded-bl-[1.25rem] flex items-center">
-                  <p className="rotate-90 text-center text-white font-bold text-[1rem] -translate-x-5 lg:-translate-x-3.5 tracking-[3px]">
+                  <p className="rotate-90 text-center text-white font-bold text-[1rem] -translate-x-5 lg:-translate-x-3.5 tracking-[4px]">
                     AKAD & RESEPSI
                   </p>
                 </div>
@@ -35,8 +35,10 @@ function WeddingEvents() {
                   </p>
                   <p className="text-[0.785rem] text-[#5a5a5a] font-light leading-[1.9]">
                     <strong className="text-black font-bold">
-                      Dusun Duwa' Assen - Batioh
+                      Kediaman Mempelai Wanita
                     </strong>
+                    <br />
+                    Dusun Duwa' Assen - Batioh
                   </p>
                   <a
                     href="https://maps.app.goo.gl/Nadp4o3ALL16yubp9"
