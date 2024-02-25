@@ -80,8 +80,6 @@ function Reservation() {
                   setInputValue({
                     ...inputValue,
                     presence: e.target.value,
-                    numOfPeople: "",
-                    waktuKehadiran: "",
                   })
                 }
               />
