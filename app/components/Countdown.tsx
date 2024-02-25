@@ -39,16 +39,16 @@ function CountdownComp() {
           <div className="relative z-20">
             <RevealWrapper duration={1500} origin="right">
               <p className="text-sm font-light">WEDDING INVITATION</p>
-              <h1 className="text-3xl font-light mt-2 mb-4">Akbar & Retha</h1>
+              <h1 className="text-3xl font-light mt-2 mb-4">Akhmad Muhtarom & Ulin Nikmah</h1>
               <div className="grid grid-cols-2 border-y border-y-white text-center text-[0.75rem] font-light">
                 <p className="leading-[1.85] py-2 px-2 border-r border-r-white flex flex-col gap-2">
                   <span>SAVE THE DATE</span>
-                  <span>Monday, 20 April 2069</span>
+                  <span>Monday, 21 April 2024</span>
                 </p>
                 <p className="py-2 px-2 flex flex-col gap-2">
                   <span>COUNTDOWN</span>
                   <Countdown
-                    date={new Date("2069-04-20")}
+                    date={new Date("2024-04-21")}
                     renderer={renderer}
                   />
                 </p>

@@ -36,22 +36,22 @@ function Profile() {
         <div className="flex flex-col items-end text-right gap-6 mt-12">
           <RevealWrapper duration={1500} origin="bottom">
             <h1 className="italic text-2xl font-light">
-            Akhmad Muhtarom & Ulin Nikmah
+            Ulin Nikmah
             </h1>
           </RevealWrapper>
           <p className="text-sm leading-relaxed">
             <strong>Putri dari</strong>
             <br />
-            H. Mistari (Alm) dan
+            H. Syamsul Arifin dan
             <br />
-            HJ. Halimatus Sakdiyah
+            HJ. Midnatun
           </p>
           <a
-            href="https://www.instagram.com/rev4rt/"
+            href="https://www.instagram.com/ulinnmh_/"
             className="text-sm text-white bg-[#424242] px-[0.4375rem] py-1 rounded-[0.625rem] flex items-center gap-1 hover:scale-90 ease-linear duration-[0.2s]"
           >
             <AiOutlineInstagram />
-            <span>rev4rt</span>
+            <span>ulinnmh_</span>
             <HiArrowLongRight />
           </a>
         </div>
@@ -75,22 +75,22 @@ function Profile() {
         <div className="flex flex-col items-start text-left gap-6 mt-12">
           <RevealWrapper duration={1500} origin="bottom">
             <h1 className="italic text-2xl font-light">
-              Ulin Nikmah
+              Akhmad Muhtarom
             </h1>
           </RevealWrapper>
           <p className="text-sm leading-relaxed">
             <strong>Putra dari</strong>
             <br />
-            H. Syamsul Arifin dan
+            H. Mistari (Alm) dan
             <br />
-            HJ. Midnatun
+            HJ. Halimatus Sakdiyah
           </p>
           <a
-            href="https://www.instagram.com/akbar/"
+            href="https://www.instagram.com/rev4rt/"
             className="text-sm text-white bg-[#424242] px-[0.4375rem] py-1 rounded-[0.625rem] flex items-center gap-1 hover:scale-90 ease-linear duration-[0.2s]"
           >
             <AiOutlineInstagram />
-            <span>Ulin Nikmah</span>
+            <span>rev4rt</span>
             <HiArrowLongRight />
           </a>
         </div>
