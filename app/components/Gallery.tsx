@@ -26,7 +26,6 @@ function Gallery() {
                 <FaQuoteRight color="#4242427A" fontSize="1.75rem" />
               </span>
             </RevealWrapper>
-            <iframe width="560" height="315" src="https://www.youtube.com/embed/DA7TXKY9n1I?si=_WxBusBomvdPguHk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
             <RevealWrapper origin="top" duration={1500}>
               <p className="text-[0.8rem] font-light leading-loose px-8">
                 From when I first saw you, I felt that I was finally home, all I
