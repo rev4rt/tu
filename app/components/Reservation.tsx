@@ -93,12 +93,6 @@ function Reservation() {
                 value="Tidak Hadir"
                 checked={inputValue.presence === "Tidak Hadir" ? true : false}
                 onChange={(e) =>
-                  setInputValue({
-                    ...inputValue,
-                    presence: e.target.value,
-                    numOfPeople: null,
-                    waktuKehadiran: null,
-                  })
                 }
               />
               <label htmlFor="tidak-hadir">Tidak Hadir</label>
@@ -116,15 +110,11 @@ function Reservation() {
                   inputValue.name,
                   inputValue.wish,
                   inputValue.presence,
-                  inputValue.numOfPeople,
-                  inputValue.waktuKehadiran
                 );
                 setInputValue({
                   ...inputValue,
                   name: "",
                   wish: "",
-                  numOfPeople: "",
-                  waktuKehadiran: "",
                 });
               }}
               className="text-[0.75rem] bg-[#424242] flex items-center w-fit rounded text-white gap-2 py-2 px-4 font-bold hover:scale-90 ease-linear duration-[0.2s]"
