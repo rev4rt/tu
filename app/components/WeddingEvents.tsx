@@ -60,7 +60,7 @@ function WeddingEvents() {
               <div className="flex">
                 <div className="w-[80%] bg-white px-4 py-6 rounded-bl-[1.25rem] flex flex-col gap-5 items-baseline">
                   <a
-                    href="https://www.google.com/maps/place/Mercure+Bandung+City+Centre/@-6.9238326,107.608777,17z/data=!3m1!4b1!4m9!3m8!1s0x2e68e628c43b0159:0x7ad6a19680a00592!5m2!4m1!1i2!8m2!3d-6.9238326!4d107.6113519!16s%2Fg%2F11c5ggy5hx"
+                    href="https://youtu.be/cRtC46Qajok?si=bxSj2QouUMzKJs7P"
                     className="text-[0.75rem] text-[#424242] border border-[#424242] px-[0.4375rem] py-1.5 rounded-full hover:scale-90 ease-linear duration-[0.2s]"
                   >
                     LIVESTREAMING
