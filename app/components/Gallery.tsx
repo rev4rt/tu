@@ -5,15 +5,6 @@ import React from "react";
 import "./styles.css";
 import YoutubeEmbed from "./YoutubeEmbed";
 
-export default function App() {
-  return (
-    <div className="App">
-      <h1>Youtube Embed</h1>
-      <YoutubeEmbed embedId="rokGy0huYEA" />
-    </div>
-  );
-}
-
 function Gallery() {
   return (
     <section id="gallery">
@@ -23,7 +14,12 @@ function Gallery() {
           <h1 className="text-xl italic font-light text-center text-white">
             Our Gallery
           </h1>
-          
+    <div className="App">
+      <h1>Youtube Embed</h1>
+      <YoutubeEmbed embedId="rokGy0huYEA" />
+    </div>
+  );
+}
           <div className="flex flex-col items-center text-center gap-4 my-10">
             <img
               src="/images/gallery/quote.jpg"
