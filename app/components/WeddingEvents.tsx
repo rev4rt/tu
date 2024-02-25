@@ -66,11 +66,6 @@ function WeddingEvents() {
                     LIVESTREAMING
                   </a>
                 </div>
-                <div className="w-[20%] bg-[#424242] rounded-br-[1.25rem] flex items-center">
-                  <p className="-rotate-90 text-center text-white font-bold text-[1.75rem] -translate-x-[3rem] lg:-translate-x-[2.35rem] tracking-[5px]">
-                    YOUTUBE
-                  </p>
-                </div>
               </div>
             </div>
           </RevealWrapper>
