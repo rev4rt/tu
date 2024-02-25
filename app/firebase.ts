@@ -22,8 +22,6 @@ async function sendReservation(
   name: string,
   wish: string,
   presence: string,
-  numOfPeople: string | null,
-  waktuKehadiran: string | null
 ) {
   try {
     await addDoc(collection(db, "reservation"), {
@@ -31,8 +29,6 @@ async function sendReservation(
       wish: wish,
       presence: presence,
       time: serverTimestamp(),
-      numOfPeople: numOfPeople,
-      waktuKehadiran: waktuKehadiran,
     });
   } catch (e) {
     alert(e);
