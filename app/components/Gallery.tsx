@@ -2,7 +2,6 @@ import React from "react";
 import { FaQuoteRight } from "react-icons/fa";
 import { RevealWrapper } from "next-reveal";
 import React from "react";
-import React from "react";
 
 function Gallery() {
   return (
