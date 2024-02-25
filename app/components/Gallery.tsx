@@ -1,7 +1,6 @@
 import React from "react";
 import { FaQuoteRight } from "react-icons/fa";
 import { RevealWrapper } from "next-reveal";
-import React from "react";
 
 function Gallery() {
   return (
@@ -12,8 +11,6 @@ function Gallery() {
           <h1 className="text-xl italic font-light text-center text-white">
             Our Gallery
           </h1>
-  );
-}
           <div className="flex flex-col items-center text-center gap-4 my-10">
             <img
               src="/images/gallery/quote.jpg"
