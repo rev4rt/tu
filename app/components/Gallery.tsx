@@ -2,8 +2,8 @@ import React from "react";
 import { FaQuoteRight } from "react-icons/fa";
 import { RevealWrapper } from "next-reveal";
 import React from "react";
-import "./styles.css";
-import YoutubeEmbed from "./YoutubeEmbed";
+import "/global.css";
+import YoutubeEmbed from "/YoutubeEmbed.js";
 
 function Gallery() {
   return (
