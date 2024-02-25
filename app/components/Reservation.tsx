@@ -18,14 +18,12 @@ function Reservation() {
     name: string;
     wish: string;
     presence: string;
-    numOfPeople: string | null;
-    waktuKehadiran: string | null;
+
   }>({
     name: "",
     wish: "",
     presence: "Hadir",
-    numOfPeople: "",
-    waktuKehadiran: "",
+
   });
   const [reservations, setReservations] = useState<DocumentData[]>([]);
 
@@ -86,8 +84,7 @@ function Reservation() {
                   setInputValue({
                     ...inputValue,
                     presence: e.target.value,
-                    numOfPeople: "",
-                    waktuKehadiran: "",
+
                   })
                 }
               />
@@ -102,72 +99,31 @@ function Reservation() {
                   setInputValue({
                     ...inputValue,
                     presence: e.target.value,
-                    numOfPeople: null,
-                    waktuKehadiran: null,
+
                   })
                 }
               />
               <label htmlFor="tidak-hadir">Tidak Hadir</label>
             </div>
             {inputValue.presence === "Hadir" && (
-              <>
-                <select
-                  onChange={(e) =>
-                    setInputValue({
-                      ...inputValue,
-                      waktuKehadiran: e.target.value,
-                    })
-                  }
-                  value={inputValue.waktuKehadiran!}
-                  className="text-[0.8rem] py-2 px-3 border-b border-[#A99D87] rounded font-light text-[#424242] bg-white"
-                >
-                  <option value="" disabled selected>
-                    Pilih waktu kehadiran
-                  </option>
-                  <option value="Akad">Akad</option>
-                  <option value="Resepsi Base 1">Resepsi Base 1</option>
-                  <option value="Resepsi Base 2">Resepsi Base 2</option>
-                </select>
-                <select
-                  onChange={(e) =>
-                    setInputValue({
-                      ...inputValue,
-                      numOfPeople: e.target.value,
-                    })
-                  }
-                  value={inputValue.numOfPeople!}
-                  className="text-[0.8rem] py-2 px-3 border-b border-[#A99D87] rounded font-light text-[#424242] bg-white"
-                >
-                  <option value="" disabled selected>
-                    Pilih jumlah orang
-                  </option>
-                  <option value="1">1 Orang</option>
-                  <option value="2">2 Orang</option>``
-                </select>
-              </>
             )}
             <button
               onClick={() => {
                 if (inputValue.name === "")
                   return alert("Mohon masukkan nama anda.");
-                if (inputValue.waktuKehadiran === "")
-                  return alert("Mohon pilih waktu kehadiran.");
-                if (inputValue.numOfPeople === "")
-                  return alert("Mohon pilih jumlah orang.");
+
 
                 sendReservation(
                   inputValue.name,
                   inputValue.wish,
                   inputValue.presence,
-                  inputValue.numOfPeople,
-                  inputValue.waktuKehadiran
+
                 );
                 setInputValue({
                   ...inputValue,
                   name: "",
                   wish: "",
-                  numOfPeople: "",
-                  waktuKehadiran: "",
+
                 });
               }}
               className="text-[0.75rem] bg-[#424242] flex items-center w-fit rounded text-white gap-2 py-2 px-4 font-bold hover:scale-90 ease-linear duration-[0.2s]"
