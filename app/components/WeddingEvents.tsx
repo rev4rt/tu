@@ -20,7 +20,7 @@ function WeddingEvents() {
               />
               <div className="flex">
                 <div className="w-[20%] bg-[#424242] rounded-bl-[1.25rem] flex items-center">
-                  <p className="rotate-90 text-center text-white font-bold text-[1rem] -translate-x-5 lg:-translate-x-3.5 tracking-[1px]">
+                  <p className="rotate-90 text-center text-white font-bold text-[1rem] -translate-x-5 lg:-translate-x-3.5 tracking-[3px]">
                     AKAD & RESEPSI
                   </p>
                 </div>
