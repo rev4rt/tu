@@ -20,7 +20,7 @@ function WeddingEvents() {
               />
               <div className="flex">
                 <div className="w-[20%] bg-[#424242] rounded-bl-[1.25rem] flex items-center">
-                  <p className="rotate-90 text-center text-white font-bold text-[1rem] -translate-x-5 lg:-translate-x-3.5 tracking-[4px]">
+                  <p className="rotate-90 text-center text-white font-bold text-[1rem] -translate-x-5 lg:-translate-x-3.5 tracking-[5px]">
                     AKAD & RESEPSI
                   </p>
                 </div>
@@ -31,7 +31,7 @@ function WeddingEvents() {
                   <hr className="border border-[#5a5a5a80] w-full" />
                   <p className="flex items-center text-[#5a5a5a] font-light text-sm gap-1.5">
                     <AiFillClockCircle />
-                    <span>08.00 WIB - SELESAI</span>
+                    <span>08.00 WIB - Selesai</span>
                   </p>
                   <p className="text-[0.785rem] text-[#5a5a5a] font-light leading-[1.9]">
                     <strong className="text-black font-bold">
