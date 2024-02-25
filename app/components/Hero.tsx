@@ -23,7 +23,7 @@ function Hero({
             <p className="font-extralight text-[0.75rem]">The Wedding of</p>
             <h1 className="text-4xl font-light mt-2">Akhmad Muhtarom & Ulin Nikmah</h1>
             <p className="font-extralight text-[0.8rem] mt-4">
-              Monday, 20 April 2069
+              Sunday, 21 April 2024
             </p>
           </div>
           <div className="flex flex-col items-center gap-2">
