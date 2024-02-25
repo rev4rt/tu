@@ -18,12 +18,10 @@ function Reservation() {
     name: string;
     wish: string;
     presence: string;
-
   }>({
     name: "",
     wish: "",
     presence: "Hadir",
-
   });
   const [reservations, setReservations] = useState<DocumentData[]>([]);
 
@@ -51,9 +49,7 @@ function Reservation() {
             Reservation & Wishes
           </h1>
           <p className="text-center text-[0.75rem] text-[#424242]">
-            Mohon mengisi reservasi
-            <br />
-            Satu undangan berlaku untuk 1-2 orang
+            Ucapan & Do'a
           </p>
           <div className="flex flex-col gap-3">
             <input
@@ -84,7 +80,8 @@ function Reservation() {
                   setInputValue({
                     ...inputValue,
                     presence: e.target.value,
-
+                    numOfPeople: "",
+                    waktuKehadiran: "",
                   })
                 }
               />
@@ -99,13 +96,15 @@ function Reservation() {
                   setInputValue({
                     ...inputValue,
                     presence: e.target.value,
-
+                    numOfPeople: null,
+                    waktuKehadiran: null,
                   })
                 }
               />
               <label htmlFor="tidak-hadir">Tidak Hadir</label>
             </div>
             {inputValue.presence === "Hadir" && (
+
             )}
             <button
               onClick={() => {
@@ -117,13 +116,15 @@ function Reservation() {
                   inputValue.name,
                   inputValue.wish,
                   inputValue.presence,
-
+                  inputValue.numOfPeople,
+                  inputValue.waktuKehadiran
                 );
                 setInputValue({
                   ...inputValue,
                   name: "",
                   wish: "",
-
+                  numOfPeople: "",
+                  waktuKehadiran: "",
                 });
               }}
               className="text-[0.75rem] bg-[#424242] flex items-center w-fit rounded text-white gap-2 py-2 px-4 font-bold hover:scale-90 ease-linear duration-[0.2s]"
