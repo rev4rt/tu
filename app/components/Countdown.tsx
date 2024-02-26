@@ -43,7 +43,7 @@ function CountdownComp() {
               <div className="grid grid-cols-2 border-y border-y-white text-center text-[0.75rem] font-light">
                 <p className="leading-[1.85] py-2 px-2 border-r border-r-white flex flex-col gap-2">
                   <span>SAVE THE DATE</span>
-                  <span>Monday, 21 April 2024</span>
+                  <span>Sunday, 21 April 2024</span>
                 </p>
                 <p className="py-2 px-2 flex flex-col gap-2">
                   <span>COUNTDOWN</span>
