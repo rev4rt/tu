@@ -28,7 +28,7 @@ function Profile() {
           <RevealWrapper duration={1500} origin="right">
             <img
               src="/images/profile/women.jpg"
-              alt="Retha"
+              alt="ulin"
               className="translate-x-[3rem]"
             />
           </RevealWrapper>
@@ -43,6 +43,8 @@ function Profile() {
             <strong>Putri dari</strong>
             <br />
             H. Syamsul Arifin dan
+            <br />
+            &
             <br />
             HJ. Midnatun
           </p>
@@ -59,7 +61,7 @@ function Profile() {
           <RevealWrapper duration={1500} origin="left">
             <img
               src="/images/profile/man.jpg"
-              alt="Akbar"
+              alt="rev4rt"
               className="-translate-x-[3rem]"
             />
           </RevealWrapper>
@@ -82,6 +84,8 @@ function Profile() {
             <strong>Putra dari</strong>
             <br />
             H. Mistari (Alm) dan
+            <br />
+            &
             <br />
             HJ. Halimatus Sakdiyah
           </p>
