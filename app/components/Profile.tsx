@@ -42,7 +42,7 @@ function Profile() {
           <p className="text-sm leading-relaxed">
             <strong>Putri dari</strong>
             <br />
-            H. Syamsul Arifin dan
+            H. Syamsul Arifin
             <br />
             &
             <br />
@@ -83,7 +83,7 @@ function Profile() {
           <p className="text-sm leading-relaxed">
             <strong>Putra dari</strong>
             <br />
-            H. Mistari (Alm) dan
+            H. Mistari (Alm)
             <br />
             &
             <br />
