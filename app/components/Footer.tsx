@@ -18,9 +18,11 @@ function Footer() {
             </RevealWrapper>
             <RevealWrapper duration={1500} origin="top">
               <p className="text-[0.75rem] font-light leading-relaxed">
-                Wassalamualaikum Warahmatullahi Wabarakatuh
+                وَالسَّلاَمُ عَلَيْكُمْ وَرَحْمَةُ اللهِ وَبَرَكَاتُهُ
               </p>
             </RevealWrapper>
+            <br />
+            <br />
             <RevealWrapper duration={1500} origin="bottom">
               <h1 className="text-4xl font-light mt-2">Akhmad Muhtarom<br />&<br />Ulin Nikmah</h1>
             </RevealWrapper>
