@@ -26,7 +26,9 @@ function WeddingEvents() {
                 </div>
                 <div className="w-[80%] bg-white px-4 py-6 rounded-br-[1.25rem] flex flex-col gap-5 items-baseline">
                   <h1 className="italic text-xl font-light">
-                    Sunday, 21 April 2024
+                    Minggu, 21 April 2024
+                    <br />
+                    Ahad, 12-13 Syawal 1445
                   </h1>
                   <hr className="border border-[#5a5a5a80] w-full" />
                   <p className="flex items-center text-[#5a5a5a] font-light text-sm gap-1.5">
