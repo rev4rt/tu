@@ -109,20 +109,12 @@ function WeddingEvents() {
                   <h1 className="italic text-xl font-light">
                     AKAD & RESEPSI PERNIKAHAN AKHMAD MUHTAROM & ULIN NIKMAH
                   </h1>
-                  <hr className="border border-[#5a5a5a80] w-full" />
-                  <p className="flex items-center text-[#5a5a5a] font-light text-sm gap-1.5">
-                  </p>
-                  <p className="text-[0.785rem] text-[#5a5a5a] font-light leading-[1.9]">
-                    <strong className="text-black font-bold">
-                    </strong>
-                  </p>
                   <a
                     href="https://facebook.com/RTPROJEX/live_videos"
                     className="text-[0.75rem] text-[#424242] border border-[#424242] px-[0.4375rem] py-1.5 rounded-full hover:scale-90 ease-linear duration-[0.2s]"
                   >
                     FACEBOOK
-                  </a>
-                  <a
+                  </a> <a
                     href="https://youtube.com/@RTPROJEX"
                     className="text-[0.75rem] text-[#424242] border border-[#424242] px-[0.4375rem] py-1.5 rounded-full hover:scale-90 ease-linear duration-[0.2s]"
                   >
