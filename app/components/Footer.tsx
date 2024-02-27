@@ -11,7 +11,7 @@ function Footer() {
             <RevealWrapper duration={1500} origin="top">
               <p className="text-[0.75rem] font-light leading-relaxed">
                 Merupakan suatu kehormatan dan kebahagiaan bagi kami apabila
-                Bapak/Ibu/Saudara/i berkenan hadir dan memberikan doa restu
+                Bapak/Ibu/Saudara/(i) berkenan hadir dan memberikan doa restu
                 kepada kami. Atas kehadiran dan doanya kami mengucapkan
                 terimakasih
               </p>
