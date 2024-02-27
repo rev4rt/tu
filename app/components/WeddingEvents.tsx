@@ -14,7 +14,7 @@ function WeddingEvents() {
           <RevealWrapper duration={1500} origin="bottom">
             <div className="mt-10">
               <img
-                src="/images/weddingEvents/akad4.jpg"
+                src="/images/weddingEvents/akad5.jpg"
                 alt="akad"
                 className="w-full h-72 object-cover rounded-t-[1.25rem]"
               />
@@ -55,7 +55,7 @@ function WeddingEvents() {
           <RevealWrapper duration={1500} origin="bottom">
             <div className="mt-6">
               <img
-                src="/images/weddingEvents/resepsi4.jpg"
+                src="/images/weddingEvents/resepsi5.jpg"
                 alt="akad"
                 className="w-full h-72 object-cover rounded-t-[1.25rem] object-left"
               />
