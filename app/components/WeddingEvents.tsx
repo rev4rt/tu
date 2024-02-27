@@ -109,7 +109,9 @@ function WeddingEvents() {
                   <h1 className="italic text-xl font-light">
                     Akad & Resepsi Pernikahan
                     <br />
-                    Akhmad Muhtarom & Ulin Nikmah
+                    Akhmad Muhtarom &
+                    <br />
+                    Ulin Nikmah
                   </h1>
                   <hr className="border border-[#5a5a5a80] w-full" />
                   <a
