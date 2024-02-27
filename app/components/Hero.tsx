@@ -27,7 +27,7 @@ function Hero({
             </p>
           </div>
           <div className="flex flex-col items-center gap-2">
-            <p className="text-[0.8rem]">Kepada Bapak Ibu Saudara (i)</p>
+            <p className="text-[0.8rem]">Kepada Bapak/Ibu/Saudara/(i)</p>
             <p className="text-[0.8rem]">Di Tempat</p>
             <RevealWrapper duration={4000} origin="bottom">
               <a
