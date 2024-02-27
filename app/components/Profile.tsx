@@ -13,7 +13,7 @@ function Profile() {
             <br />
             ٱلسَّلَامُ عَلَيْكُمْ وَرَحْمَةُ ٱللَّٰهِ وَبَرَكَاتُهُ<br />Dengan memohon Rahmat
             dan Ridho Allah SWT. Kami mengharapkan kehadiran
-            Bapak/Ibu/Saudara/i. pada acara Resepsi Pernikahan putra-putri kami
+            Bapak/Ibu/Saudara/(i). pada acara Resepsi Pernikahan putra-putri kami
           </p>
         </RevealWrapper>
         <div className="grid grid-cols-2 mt-20">
