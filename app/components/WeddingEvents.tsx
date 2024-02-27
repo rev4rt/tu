@@ -21,7 +21,7 @@ function WeddingEvents() {
               <div className="flex">
                 <div className="w-[20%] bg-[#424242] rounded-bl-[1.25rem] flex items-center">
                   <p className="rotate-90 text-center text-white font-bold text-[1rem] -translate-x-[2rem] lg:-translate-x-[2rem] tracking-[5px]">
-                  BASE 1
+                  MAPS
                   </p>
                 </div>
                 <div className="w-[80%] bg-white px-4 py-6 rounded-br-[1.25rem] flex flex-col gap-5 items-baseline">
@@ -89,7 +89,7 @@ function WeddingEvents() {
                 </div>
                 <div className="w-[20%] bg-[#424242] rounded-br-[1.25rem] flex items-center">
                   <p className="-rotate-90 text-center text-white font-bold text-[1rem] -translate-x-[2rem] lg:-translate-x-[2rem] tracking-[5px]">
-                  BASE 2
+                  MAPS
                   </p>
                 </div>
               </div>
