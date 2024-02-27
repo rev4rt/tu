@@ -119,14 +119,17 @@ function WeddingEvents() {
                     href="https://facebook.com/RTPROJEX/live_videos"
                     className="text-[0.75rem] text-[#424242] border border-[#424242] px-[0.4375rem] py-1.5 rounded-full hover:scale-90 ease-linear duration-[0.2s]"
                   >
-                    FACEBOOK
+            <AiOutlineFacebook />
+            <span>Facebook</span>
+            <HiArrowLongRight />
                   </a>
-                  <AiOutlineYoutube />
                   <a
                     href="https://youtube.com/@RTPROJEX"
                     className="text-[0.75rem] text-[#424242] border border-[#424242] px-[0.4375rem] py-1.5 rounded-full hover:scale-90 ease-linear duration-[0.2s]"
                   >
-                    YOUTUBE
+            <AiOutlineYoutube />
+            <span>Youtube</span>
+            <HiArrowLongRight />
                   </a>
                 </div>
               </div>
