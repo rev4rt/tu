@@ -107,7 +107,9 @@ function WeddingEvents() {
                 </div>
                 <div className="w-[80%] bg-white px-4 py-6 rounded-br-[1.25rem] flex flex-col gap-5 items-baseline">
                   <h1 className="italic text-xl font-light">
-                    Akad & Resepsi Pernikahan Akhmad Muhtarom & Ulin Nikmah
+                    Akad & Resepsi Pernikahan
+                    <br />
+                    Akhmad Muhtarom & Ulin Nikmah
                   </h1>
                   <hr className="border border-[#5a5a5a80] w-full" />
                   <a
