@@ -14,16 +14,11 @@ function WeddingEvents() {
           <RevealWrapper duration={1500} origin="bottom">
             <div className="mt-10">
               <img
-                src="/images/weddingEvents/akad.jpg"
+                src="/images/weddingEvents/akad2.jpg"
                 alt="akad"
                 className="w-full h-72 object-cover rounded-t-[1.25rem]"
               />
               <div className="flex">
-                <div className="w-[20%] bg-[#424242] rounded-bl-[1.25rem] flex items-center">
-                  <p className="rotate-90 text-center text-white font-bold text-[1rem] -translate-x-[0rem] lg:-translate-x-[2rem] tracking-[5px]">
-                    PENGIRING MEMPELAI PRIA
-                  </p>
-                </div>
                 <div className="w-[80%] bg-white px-4 py-6 rounded-br-[1.25rem] flex flex-col gap-5 items-baseline">
                   <h1 className="italic text-xl font-light">
                     Sunday, 21 April 2024 M
@@ -55,7 +50,7 @@ function WeddingEvents() {
           <RevealWrapper duration={1500} origin="bottom">
             <div className="mt-6">
               <img
-                src="/images/weddingEvents/resepsi.jpg"
+                src="/images/weddingEvents/resepsi2.jpg"
                 alt="akad"
                 className="w-full h-72 object-cover rounded-t-[1.25rem] object-left"
               />
@@ -86,11 +81,6 @@ function WeddingEvents() {
                   >
                     GOOGLE MAPS
                   </a>
-                </div>
-                <div className="w-[20%] bg-[#424242] rounded-br-[1.25rem] flex items-center">
-                  <p className="-rotate-90 text-center text-white font-bold text-[1rem] -translate-x-[2rem] lg:-translate-x-[0rem] tracking-[5px]">
-                    AKAD & RESEPSI
-                  </p>
                 </div>
               </div>
             </div>
