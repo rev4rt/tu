@@ -14,13 +14,14 @@ function WeddingEvents() {
           <RevealWrapper duration={1500} origin="bottom">
             <div className="mt-10">
               <img
-                src="/images/weddingEvents/akad3.jpg"
+                src="/images/weddingEvents/akad4.jpg"
                 alt="akad"
                 className="w-full h-72 object-cover rounded-t-[1.25rem]"
               />
               <div className="flex">
                 <div className="w-[20%] bg-[#424242] rounded-bl-[1.25rem] flex items-center">
                   <p className="rotate-90 text-center text-white font-bold text-[1.75rem] -translate-x-5 lg:-translate-x-3.5 tracking-[5px]">
+                  BASE 1
                   </p>
                 </div>
                 <div className="w-[80%] bg-white px-4 py-6 rounded-br-[1.25rem] flex flex-col gap-5 items-baseline">
@@ -54,7 +55,7 @@ function WeddingEvents() {
           <RevealWrapper duration={1500} origin="bottom">
             <div className="mt-6">
               <img
-                src="/images/weddingEvents/resepsi3.jpg"
+                src="/images/weddingEvents/resepsi4.jpg"
                 alt="akad"
                 className="w-full h-72 object-cover rounded-t-[1.25rem] object-left"
               />
@@ -88,6 +89,7 @@ function WeddingEvents() {
                 </div>
                 <div className="w-[20%] bg-[#424242] rounded-br-[1.25rem] flex items-center">
                   <p className="-rotate-90 text-center text-white font-bold text-[1.75rem] -translate-x-[3rem] lg:-translate-x-[2.35rem] tracking-[5px]">
+                  BASE 2
                   </p>
                 </div>
               </div>
