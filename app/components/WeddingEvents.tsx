@@ -1,6 +1,7 @@
 import React from "react";
 import { FaFacebook } from "react-icons/fa";
 import { FaYoutube } from "react-icons/fa";
+import { HiArrowLongRight } from "react-icons/hi2";
 import { AiFillClockCircle } from "react-icons/ai";
 import { RevealWrapper } from "next-reveal";
 
@@ -120,15 +121,13 @@ function WeddingEvents() {
                     href="https://facebook.com/RTPROJEX/live_videos"
                     className="text-[0.75rem] text-[#424242] border border-[#424242] px-[0.4375rem] py-1.5 rounded-full hover:scale-90 ease-linear duration-[0.2s]"
                   >
-                    <FaFacebook />
-                    Facebook
+            <FaFacebook /><span>FACEBOOK</span><HiArrowLongRight />
                   </a>
                   <a
                     href="https://youtube.com/@RTPROJEX"
                     className="text-[0.75rem] text-[#424242] border border-[#424242] px-[0.4375rem] py-1.5 rounded-full hover:scale-90 ease-linear duration-[0.2s]"
                   >
-                    <FaYoutube />
-                    Youtube
+            <FaYoutube /><span>YOUTUBE</span><HiArrowLongRight />
                   </a>
                 </div>
               </div>
