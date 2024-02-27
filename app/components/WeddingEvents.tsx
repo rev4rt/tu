@@ -20,7 +20,7 @@ function WeddingEvents() {
               />
               <div className="flex">
                 <div className="w-[20%] bg-[#424242] rounded-bl-[1.25rem] flex items-center">
-                  <p className="rotate-90 text-center text-white font-bold text-[1.10rem] -translate-x-5 lg:-translate-x-3.5 tracking-[5px]">
+                  <p className="rotate-90 text-center text-white font-bold text-[1.10rem] -translate-x-[2rem] lg:-translate-x-[2rem] tracking-[5px]">
                     PENGIRING MEMPELAI PRIA
                   </p>
                 </div>
@@ -88,8 +88,8 @@ function WeddingEvents() {
                   </a>
                 </div>
                 <div className="w-[20%] bg-[#424242] rounded-br-[1.25rem] flex items-center">
-                  <p className="-rotate-90 text-center text-white font-bold text-[1.75rem] -translate-x-[3rem] lg:-translate-x-[2.35rem] tracking-[5px]">
-                    RESEPSI
+                  <p className="-rotate-90 text-center text-white font-bold text-[1.10rem] -translate-x-[2rem] lg:-translate-x-[2rem] tracking-[5px]">
+                    AKAD & RESEPSI
                   </p>
                 </div>
               </div>
