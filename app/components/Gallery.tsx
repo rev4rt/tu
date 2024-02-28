@@ -30,29 +30,10 @@ function Gallery() {
           </div>
           <RevealWrapper origin="right" duration={1500}>
             <img
-              src="/images/gallery/bigGrid.jpg"
+              src="/images/gallery/bigGrid1.jpg"
               alt="big-grid"
               className="w-full h-96 object-cover object-bottom"
             />
-          </RevealWrapper>
-          <RevealWrapper origin="top" duration={1500}>
-            <div className="grid grid-cols-3 gap-1 mt-1">
-              <img
-                src="/images/gallery/grid-1.jpg"
-                alt="grid-1"
-                className="h-32 object-cover w-full"
-              />
-              <img
-                src="/images/gallery/grid-2.jpg"
-                alt="grid-2"
-                className="h-32 object-cover w-full"
-              />
-              <img
-                src="/images/gallery/grid-3.jpg"
-                alt="grid-3"
-                className="h-32 object-cover w-full"
-              />
-            </div>
           </RevealWrapper>
         </div>
       </div>
