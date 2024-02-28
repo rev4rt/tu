@@ -1,4 +1,5 @@
 "use client";
+
 import {
   collection,
   DocumentData,
@@ -16,10 +17,15 @@ function Reservation() {
   const [inputValue, setInputValue] = useState<{
     name: string;
     wish: string;
+    presence: string;
+    numOfPeople: string | null;
+    waktuKehadiran: string | null;
   }>({
     name: "",
     wish: "",
     presence: "Hadir",
+    numOfPeople: "",
+    waktuKehadiran: "",
   });
   const [reservations, setReservations] = useState<DocumentData[]>([]);
 
@@ -79,6 +85,9 @@ function Reservation() {
                 onChange={(e) =>
                   setInputValue({
                     ...inputValue,
+                    presence: e.target.value,
+                    numOfPeople: "",
+                    waktuKehadiran: "",
                   })
                 }
               />
@@ -92,22 +101,23 @@ function Reservation() {
                 onChange={(e) =>
                   setInputValue({
                     ...inputValue,
+                    presence: e.target.value,
+                    numOfPeople: null,
+                    waktuKehadiran: null,
                   })
                 }
               />
               <label htmlFor="tidak-hadir">Tidak Hadir</label>
             </div>
-            {inputValue.presence === "Hadir" && (
-              <>
-              </>
-            )}
             <button
               onClick={() => {
                 if (inputValue.name === "")
                   return alert("Mohon masukkan nama anda.");
+
                 sendReservation(
                   inputValue.name,
                   inputValue.wish,
+                  inputValue.presence,
                 );
                 setInputValue({
                   ...inputValue,
