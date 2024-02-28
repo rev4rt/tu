@@ -4,8 +4,6 @@ import React from "react";
 import { RxEnvelopeOpen } from "react-icons/rx";
 import useSound from "use-sound";
 import { RevealWrapper } from "next-reveal";
-import { Analytics } from "@vercel/analytics/react"
-import { SpeedInsights } from "@vercel/speed-insights/next"
 
 function Hero({
   setCurrentOverflow,
