@@ -83,7 +83,7 @@ function WeddingEvents() {
                     Dusun Duwa' Assen, Batioh, Banyuates
                   </p>
                   <a
-                    href="https://maps.app.goo.gl/Nadp4o3ALL16yubp9"
+                    href="https://maps.app.goo.gl/rVrUVuy82D1WFvfD6"
                     className="text-[0.75rem] text-[#424242] border border-[#424242] px-[0.4375rem] py-1.5 rounded-full hover:scale-90 ease-linear duration-[0.2s]"
                   >
                     GOOGLE MAPS
