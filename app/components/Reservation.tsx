@@ -21,7 +21,7 @@ function Reservation() {
   }>({
     name: "",
     wish: "",
-    presence: "Hadir",
+    presence: "Hadir"
   });
   const [reservations, setReservations] = useState<DocumentData[]>([]);
 
