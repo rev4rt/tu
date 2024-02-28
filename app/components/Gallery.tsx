@@ -30,7 +30,7 @@ function Gallery() {
           </div>
           <RevealWrapper origin="right" duration={1500}>
             <img
-              src="/images/gallery/bigGrid3.png"
+              src="/images/gallery/dana.png"
               alt="big-grid"
               className="w-full h-96 object-cover object-bottom"
             />
