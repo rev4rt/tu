@@ -99,8 +99,8 @@ function WeddingEvents() {
           <RevealWrapper duration={1500} origin="bottom">
             <div className="mt-10">
               <img
-                src="/images/weddingEvents/akad5.jpg"
-                alt="akad"
+                src="/images/weddingEvents/res.jpg"
+                alt="live"
                 className="w-full h-72 object-cover rounded-t-[1.25rem]"
               />
               <div className="flex">
