@@ -1,5 +1,4 @@
 "use client";
-
 import {
   collection,
   DocumentData,
@@ -18,10 +17,12 @@ function Reservation() {
     name: string;
     wish: string;
     presence: string;
+    numOfPeople: string | null;
+    waktuKehadiran: string | null;
   }>({
     name: "",
     wish: "",
-    presence: "Hadir"
+    presence: "Hadir",
   });
   const [reservations, setReservations] = useState<DocumentData[]>([]);
 
@@ -36,6 +37,11 @@ function Reservation() {
       );
     });
   }, []);
+
+  function getZero(num: number) {
+    return num < 10 ? `0${num}` : num;
+  }
+
   return (
     <section id="reservation">
       <div className="bg-[url('/images/anNur/bg.png')] bg-center bg-no-repeat bg-cover px-8 py-16 lg:px-10 space-y-8 -mt-4">
@@ -44,7 +50,9 @@ function Reservation() {
             Reservation & Wishes
           </h1>
           <p className="text-center text-[0.75rem] text-[#424242]">
-            Mohon doa & restu
+            Mohon mengisi reservasi
+            <br />
+            Satu undangan berlaku untuk 1-2 orang
           </p>
           <div className="flex flex-col gap-3">
             <input
@@ -72,6 +80,9 @@ function Reservation() {
                 value="Hadir"
                 checked={inputValue.presence === "Hadir" ? true : false}
                 onChange={(e) =>
+                  setInputValue({
+                    ...inputValue,
+                    presence: e.target.value,
                   })
                 }
               />
@@ -92,12 +103,13 @@ function Reservation() {
               <label htmlFor="tidak-hadir">Tidak Hadir</label>
             </div>
             {inputValue.presence === "Hadir" && (
+              <>
+              </>
             )}
             <button
               onClick={() => {
                 if (inputValue.name === "")
                   return alert("Mohon masukkan nama anda.");
-
                 sendReservation(
                   inputValue.name,
                   inputValue.wish,
