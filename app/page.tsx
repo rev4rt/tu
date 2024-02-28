@@ -29,8 +29,8 @@ export default function Home() {
       <ArRum />
       <Profile />
       <WeddingEvents />
-      <Gallery />
       <Reservation />
+      <Gallery />
       <Footer />
     </main>
   );
