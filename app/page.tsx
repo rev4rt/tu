@@ -6,6 +6,7 @@ import ArRum from "./components/ArRum";
 import Hero from "./components/Hero";
 import Profile from "./components/Profile";
 import WeddingEvents from "./components/WeddingEvents";
+import Footer from "./components/Gallery";
 import Footer from "./components/Footer";
 import { RevealWrapper } from "next-reveal";
 
@@ -26,6 +27,7 @@ export default function Home() {
       <ArRum />
       <Profile />
       <WeddingEvents />
+      <Gallery />
       <Footer />
     </main>
   );
