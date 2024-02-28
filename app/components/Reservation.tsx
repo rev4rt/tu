@@ -16,9 +16,6 @@ function Reservation() {
   const [inputValue, setInputValue] = useState<{
     name: string;
     wish: string;
-    presence: string;
-    numOfPeople: string | null;
-    waktuKehadiran: string | null;
   }>({
     name: "",
     wish: "",
@@ -82,7 +79,6 @@ function Reservation() {
                 onChange={(e) =>
                   setInputValue({
                     ...inputValue,
-                    presence: e.target.value,
                   })
                 }
               />
@@ -96,7 +92,6 @@ function Reservation() {
                 onChange={(e) =>
                   setInputValue({
                     ...inputValue,
-                    presence: e.target.value,
                   })
                 }
               />
@@ -113,7 +108,6 @@ function Reservation() {
                 sendReservation(
                   inputValue.name,
                   inputValue.wish,
-                  inputValue.presence,
                 );
                 setInputValue({
                   ...inputValue,
