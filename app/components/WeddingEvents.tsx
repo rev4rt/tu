@@ -126,7 +126,7 @@ function WeddingEvents() {
                   </a>
                   <FaYoutube />
                   <a
-                    href="https://youtube.com/@RTPROJEX"
+                    href="https://www.youtube.com/watch?v=_TV4MjpVfho"
                     className="text-[0.75rem] text-[#424242] border border-[#424242] px-[0.4375rem] py-1.5 rounded-full hover:scale-90 ease-linear duration-[0.2s]"
                   >
             <span>LIVE YOUTUBE</span>
