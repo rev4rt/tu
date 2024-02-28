@@ -32,19 +32,6 @@ function Reservation() {
   useEffect(() => {
     const q = query(collection(db, "reservation"), orderBy("time", "desc"));
 
-    return onSnapshot(q, (querySnapshot) => {
-      setReservations(
-        querySnapshot.docs.map((doc) => {
-          return { id: doc.id, ...doc.data() };
-        })
-      );
-    });
-  }, []);
-
-  function getZero(num: number) {
-    return num < 10 ? `0${num}` : num;
-  }
-
   return (
     <section id="reservation">
       <div className="bg-[url('/images/anNur/bg.png')] bg-center bg-no-repeat bg-cover px-8 py-16 lg:px-10 space-y-8 -mt-4">
