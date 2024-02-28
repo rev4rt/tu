@@ -9,7 +9,7 @@ function Gallery() {
         <div className="bg-transparent bg-[linear-gradient(360deg,#EAEAEA_53%,#424242_100%)] opacity-90 absolute inset-0"></div>
         <div className="z-10 relative">
           <h1 className="text-xl italic font-light text-center text-white">
-            Our Gallery
+            SAWER ONLINE
           </h1>
           <div className="flex flex-col items-center text-center gap-4 my-10">
             <img
@@ -24,9 +24,7 @@ function Gallery() {
             </RevealWrapper>
             <RevealWrapper origin="top" duration={1500}>
               <p className="text-[0.8rem] font-light leading-loose px-8">
-                From when I first saw you, I felt that I was finally home, all I
-                want is to make your dreams come true and share our dreams
-                together.
+                Kami menerima saweran anda dengan sepenuh hati melalui lumbung berikut.
               </p>
             </RevealWrapper>
           </div>
