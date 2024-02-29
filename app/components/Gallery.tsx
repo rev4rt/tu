@@ -9,7 +9,7 @@ function Gallery() {
         <div className="bg-transparent bg-[linear-gradient(360deg,#EAEAEA_53%,#424242_100%)] opacity-90 absolute inset-0"></div>
         <div className="z-10 relative">
           <h1 className="text-xl italic font-light text-center text-white">
-            Open Donation
+            Love Gift
           </h1>
           <div className="flex flex-col items-center text-center gap-4 my-10">
             <img
@@ -24,7 +24,7 @@ function Gallery() {
             </RevealWrapper>
             <RevealWrapper origin="top" duration={1500}>
               <p className="text-[0.8rem] font-light leading-loose px-8">
-                Kami menerima saweran anda dengan sepenuh hati melalui lumbung berikut.
+                Tanpa mengurangi rasa hormat, bagi anda yang ingin memberikan tanda kasih untuk kami, dapat melalui:
               </p>
             </RevealWrapper>
           </div>
