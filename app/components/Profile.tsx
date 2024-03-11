@@ -27,7 +27,7 @@ function Profile() {
           </div>
           <RevealWrapper duration={1500} origin="right">
             <img
-              src="/images/profile/women.jpg"
+              src="/images/profile/u.jpg"
               alt="ulin"
               className="translate-x-[3rem]"
             />
@@ -60,7 +60,7 @@ function Profile() {
         <div className="grid grid-cols-2 mt-20">
           <RevealWrapper duration={1500} origin="left">
             <img
-              src="/images/profile/man.jpg"
+              src="/images/profile/c.jpg"
               alt="rev4rt"
               className="-translate-x-[3rem]"
             />
