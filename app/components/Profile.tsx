@@ -27,7 +27,7 @@ function Profile() {
           </div>
           <RevealWrapper duration={1500} origin="right">
             <img
-              src="/images/profile/u.jpg"
+              src="/images/profile/ulin.jpg"
               alt="ulin"
               className="translate-x-[3rem]"
             />
