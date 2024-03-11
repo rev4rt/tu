@@ -1,7 +1,7 @@
 import "./globals.css";
 import { Merriweather } from "next/font/google";
-import { SpeedInsights } from "@vercel/speed-insights/next"
-import { Analytics } from "@vercel/analytics/react"
+import { SpeedInsights } from "@vercel/speed-insights/next";
+import { Analytics } from "@vercel/analytics/react";
 
 const merriweather = Merriweather({
   weight: ["300", "400", "700", "900"],
