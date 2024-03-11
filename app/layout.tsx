@@ -1,11 +1,5 @@
 import "./globals.css";
 import { Merriweather } from "next/font/google";
-import { fromImage } from 'imtool';
-
-async function demo() {
-    const tool = await fromImage('image.png');
-    await tool.thumbnail(250, false).toDataURL();
-}
 
 const merriweather = Merriweather({
   weight: ["300", "400", "700", "900"],
