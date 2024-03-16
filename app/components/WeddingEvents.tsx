@@ -98,11 +98,11 @@ function WeddingEvents() {
           </RevealWrapper>
           <RevealWrapper duration={1500} origin="bottom">
             <div className="mt-10">
-              <img
-                src="/images/weddingEvents/res.jpg"
-                alt="live"
-                className="w-full h-72 object-cover rounded-t-[1.25rem]"
-              />
+<iframe className="w-full h-72 object-cover rounded-t-[1.25rem]"
+    src="https://www.youtube.com/embed/_TV4MjpVfho?si=N9T77BjioLTR_QhE" 
+    frameBorder="0" 
+    allow="autoplay; encrypted-media" 
+    allowFullScreen></iframe>
               <div className="flex">
                 <div className="w-[20%] bg-[#424242] rounded-bl-[1.25rem] flex items-center">
                   <p className="rotate-90 text-center text-white font-bold text-[1.75rem] -translate-x-5 lg:-translate-x-3.5 tracking-[5px]">
