@@ -50,7 +50,7 @@ function Profile() {
           </p>
           <a
             href="https://www.instagram.com/ulinnmh_/"
-            className="text-sm text-white bg-[#e2cdbc] px-[0.4375rem] py-1 rounded-[0.625rem] flex items-center gap-1 hover:scale-90 ease-linear duration-[0.2s]"
+            className="text-sm text-[#101010] bg-[#e2cdbc] px-[0.4375rem] py-1 rounded-[0.625rem] flex items-center gap-1 hover:scale-90 ease-linear duration-[0.2s]"
           >
             <AiOutlineInstagram />
             <span>ulinnmh_</span>
@@ -91,7 +91,7 @@ function Profile() {
           </p>
           <a
             href="https://www.instagram.com/rev4rt/"
-            className="text-sm text-white bg-[#e2cdbc] px-[0.4375rem] py-1 rounded-[0.625rem] flex items-center gap-1 hover:scale-90 ease-linear duration-[0.2s]"
+            className="text-sm text-[#101010] bg-[#e2cdbc] px-[0.4375rem] py-1 rounded-[0.625rem] flex items-center gap-1 hover:scale-90 ease-linear duration-[0.2s]"
           >
             <AiOutlineInstagram />
             <span>rev4rt</span>
