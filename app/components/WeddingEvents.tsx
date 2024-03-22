@@ -84,7 +84,7 @@ function WeddingEvents() {
                   </p>
                   <a
                     href="https://maps.app.goo.gl/rVrUVuy82D1WFvfD6"
-                    className="text-[0.75rem] text-[#e2cdbc] border border-[#424242] px-[0.4375rem] py-1.5 rounded-full hover:scale-90 ease-linear duration-[0.2s]"
+                    className="text-[0.75rem] text-[#424242] border border-[#424242] px-[0.4375rem] py-1.5 rounded-full hover:scale-90 ease-linear duration-[0.2s]"
                   >
                     GOOGLE MAPS
                   </a>
