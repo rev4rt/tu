@@ -33,7 +33,7 @@ function Footer() {
         <img src="/images/footer/logo-final.png" alt="logo" className="w-24" />
       </div>
               <p className="text-[0.75rem] text-center text-white font-light leading-relaxed">
-               Copyright © 2024 RTPROJEX.
+               © <a href="#">RTPROJEX</a> {new Date().getFullYear()}
               </p>
     </section>
   );
