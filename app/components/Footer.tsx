@@ -6,7 +6,7 @@ function Footer() {
     <section id="footer">
       <div className="h-screen bg-[url('/images/footer/bg3.jpeg')] bg-cover bg-[47.5%] bg-no-repeat flex items-end">
         <div className="relative">
-          <div className="bg-[linear-gradient(180deg,#ffffff00_0%,#9C76C2_67%)] absolute inset-x-0 bottom-0 -top-24"></div>
+          <div className="bg-[linear-gradient(180deg,#ffffff00_0%,#e2cdbc_67%)] absolute inset-x-0 bottom-0 -top-24"></div>
         <div className="relative py-8 px-10 w-full">
           <div
             className="bg-[#e2cdbc21] rounded-tr-[3.125rem] rounded-bl-[3.125rem] absolute inset-x-4 inset-y-0 z-10"
@@ -18,7 +18,7 @@ function Footer() {
                 Bapak/Ibu/Saudara/(i) berkenan hadir dan memberikan doa restu
                 kepada kami. Atas kehadiran dan doanya kami mengucapkan
                 terimakasih.</p>
-              <h1 className="text-3xl text-center font-light mt-2 mb-4">وَالسَّلاَمُ عَلَيْكُمْ وَرَحْمَةُ اللهِ وَبَرَكَاتُهُ</h1>
+              <p className="text-sm text-center font-light mt-2 mb-4">وَالسَّلاَمُ عَلَيْكُمْ وَرَحْمَةُ اللهِ وَبَرَكَاتُهُ</p>
             </RevealWrapper>
           </div>
           </div>
@@ -26,12 +26,12 @@ function Footer() {
             <br />
             <br />
             <RevealWrapper duration={1500} origin="bottom">
-              <h1 className="text-4xl font-light mt-2">Lulu & Farhan</h1>
+              <h1 className="text-4xl font-light mt-2">Akhmad Muhtarom<br />&<br />Ulin Nikmah</h1>
             </RevealWrapper>
           </div>
         </div>
       </div>
-      <div className="bg-[#9C76C2] p-20 flex items-center justify-center">
+      <div className="bg-[#e2cdbc] p-20 flex items-center justify-center">
         <img src="/images/footer/logo-final.png" alt="logo" className="w-24" />
       </div>
     </section>
