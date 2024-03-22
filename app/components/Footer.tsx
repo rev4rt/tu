@@ -18,6 +18,7 @@ function Footer() {
                   <h1 className="text-3xl font-light mt-2 mb-4">Lulu & Farhan</h1>
               </div>
             </RevealWrapper>
+             </div>
         </div>
              </div>
             <br />
