@@ -30,10 +30,10 @@ function Footer() {
         </div>
       </div>
       <div className="bg-[#e2cdbc] p-20 flex items-center justify-center">
-        <img src="/images/footer/logo-final.png" alt="logo" className="w-24" />
+        <a href="#"><img src="/images/footer/logo-final.png" alt="logo" className="w-24" /></a>
       </div>
               <p className="text-[0.75rem] text-center text-white font-light leading-relaxed">
-               © <a href="#">RTPROJEX</a> {new Date().getFullYear()}
+               Copuright © {new Date().getFullYear()} <a href="#">RTPROJEX</a>
               </p>
     </section>
   );
