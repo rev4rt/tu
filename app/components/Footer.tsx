@@ -20,8 +20,7 @@ function Footer() {
                 kepada kami. Atas kehadiran dan doanya kami mengucapkan
                 terimakasih
               </p>
-                وَالسَّلاَمُ عَلَيْكُمْ وَرَحْمَةُ اللهِ وَبَرَكَاتُهُ
-              </p>
+              <p>وَالسَّلاَمُ عَلَيْكُمْ وَرَحْمَةُ اللهِ وَبَرَكَاتُهُ</p>
            </RevealWrapper>
             <br />
             <br />
