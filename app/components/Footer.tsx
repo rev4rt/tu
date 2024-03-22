@@ -27,7 +27,8 @@ function Footer() {
       </div>
       <div className="bg-[#e2cdbc] p-20 flex items-center justify-center">
         <a href="#"><img src="/images/footer/logo-final.png" alt="logo" className="w-24" /></a>
-        <br />
+        </div>
+      <div className="bg-[#e2cdbc] p-20 flex items-center justify-center">
               <p className="text-[0.75rem] text-center text-white font-light leading-relaxed">
                Copyright © {new Date().getFullYear()} <a href="#">RTPROJEX</a>
               </p>
