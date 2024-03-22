@@ -9,7 +9,7 @@ function Footer() {
           <div className="bg-[linear-gradient(180deg,#ffffff00_0%,#e2cdbc_67%)] absolute inset-x-0 bottom-0 -top-24"></div>
         <div className="relative py-8 px-10 w-full">
           <div
-            className="bg-[#e2cdbc21] rounded-tr-[3.125rem] rounded-bl-[3.125rem] absolute inset-x-4 inset-y-0 z-10"
+            className="bg-[#ffffff21] rounded-tr-[3.125rem] rounded-bl-[3.125rem] absolute inset-x-4 inset-y-0 z-10"
             style={{ backdropFilter: "blur(6px)" }}
           />
           <div className="relative z-20">
@@ -18,6 +18,7 @@ function Footer() {
                 Bapak/Ibu/Saudara/(i) berkenan hadir dan memberikan doa restu
                 kepada kami. Atas kehadiran dan doanya kami mengucapkan
                 terimakasih.</p>
+               <br />
               <p className="text-sm text-center font-light mt-2 mb-4">وَالسَّلاَمُ عَلَيْكُمْ وَرَحْمَةُ اللهِ وَبَرَكَاتُهُ</p>
             </RevealWrapper>
           </div>
@@ -32,7 +33,7 @@ function Footer() {
         </div>
       </div>
       <div className="bg-[#e2cdbc] p-20 flex items-center justify-center">
-        <img src="/images/footer/logo-final.png" alt="logo" className="w-24" />
+      <a href="#"><img src="/images/footer/logo-final.png" alt="logo" className="w-24" /></a>
       </div>
     </section>
   );
