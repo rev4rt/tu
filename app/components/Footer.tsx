@@ -4,14 +4,10 @@ import { RevealWrapper } from "next-reveal";
 function Footer() {
   return (
     <section id="footer">
-      
       <div className="h-screen bg-[url('/images/footer/bg3.jpeg')] bg-cover bg-[47.5%] bg-no-repeat flex items-end">
         <div className="relative">
         <div className="flex flex-col items-center text-center gap-4 text-[#4242427A] p-6 z-10 relative">
           <RevealWrapper duration={4000} origin="bottom">
-               <p className="font-bold text-sm bg-[#e2cdbc36] border border-[#bdb08f8c] rounded-lg flex items-center gap-2 px-6 py-3 mt-6 hover:scale-90 ease-linear duration-[0.2s]"
-              >
-                <span>
                 <p className="text-[0.75rem] font-light leading-relaxed">
                 Merupakan suatu kehormatan dan kebahagiaan bagi kami apabila
                 Bapak/Ibu/Saudara/(i) berkenan hadir dan memberikan doa restu
@@ -22,15 +18,10 @@ function Footer() {
               <p className="text-[0.75rem] font-light leading-relaxed">
                 وَالسَّلاَمُ عَلَيْكُمْ وَرَحْمَةُ اللهِ وَبَرَكَاتُهُ
               </p>
-              </span>
-              
             </RevealWrapper>
-        
           </div>
-          
           <div className="bg-[linear-gradient(180deg,#e2cdbc00_00%,#e2cdbc_70%)] absolute inset-x-0 bottom-0 -top-24"></div>
           <div className="flex flex-col items-center text-center gap-4 text-white p-6 z-10 relative">
-            
             <br />
             <RevealWrapper duration={1500} origin="bottom">
               <h1 className="text-4xl font-light mt-2">Akhmad Muhtarom<br />&<br />Ulin Nikmah</h1>
