@@ -3,8 +3,7 @@ import { RevealWrapper } from "next-reveal";
 
 function Footer() {
   return (
-    <section id="footer">
-      <div className="flex flex-col items-center text-center gap-4 text-[#4242427A] p-6 z-10 relative">
+    <div className="flex flex-col items-center text-center gap-4 text-[#4242427A] p-6 z-10 relative">
         <RevealWrapper duration={1500} origin="top">
               <p className="text-[0.75rem] font-light leading-relaxed">
                 Merupakan suatu kehormatan dan kebahagiaan bagi kami apabila
@@ -18,6 +17,8 @@ function Footer() {
               </p>
             </RevealWrapper>
           </div>
+    <section id="footer">
+      
       <div className="h-screen bg-[url('/images/footer/bg3.jpeg')] bg-cover bg-[47.5%] bg-no-repeat flex items-end">
         
         <div className="relative">
