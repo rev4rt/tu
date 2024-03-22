@@ -6,11 +6,11 @@ function Footer() {
     <section id="footer">
       <div className="h-screen bg-[url('/images/footer/bg3.jpeg')] bg-cover bg-[47.5%] bg-no-repeat flex items-end">
         <div className="relative">
-        <div className="flex flex-col items-center text-center gap-4 text-[#4242427A] p-6 z-10 relative">
         <div className="bg-[#e2cdbc21] rounded-tr-[3.125rem] rounded-bl-[3.125rem] absolute inset-x-4 inset-y-0 z-10"
             style={{ backdropFilter: "blur(6px)" }}
           />
             <RevealWrapper duration={1500} origin="right">
+              <div className="flex flex-col items-center text-center gap-4 text-[#4242427A] p-6 z-10 relative">
               <p className="text-[0.75rem] font-light leading-relaxed">
                 Merupakan suatu kehormatan dan kebahagiaan bagi kami apabila
                 Bapak/Ibu/Saudara/(i) berkenan hadir dan memberikan doa restu
@@ -21,8 +21,8 @@ function Footer() {
               <p className="text-[0.75rem] font-light leading-relaxed">
                 وَالسَّلاَمُ عَلَيْكُمْ وَرَحْمَةُ اللهِ وَبَرَكَاتُهُ
                 </p>
+               </div>
             </RevealWrapper>
-          </div>
           <div className="bg-[linear-gradient(180deg,#e2cdbc00_00%,#e2cdbc_70%)] absolute inset-x-0 bottom-0 -top-24"></div>
           <div className="flex flex-col items-center text-center gap-4 text-white p-6 z-10 relative">
             <br />
