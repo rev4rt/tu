@@ -15,8 +15,7 @@ function Footer() {
                 kepada kami. Atas kehadiran dan doanya kami mengucapkan
                 terimakasih
               </p>
-            </RevealWrapper>
-            <RevealWrapper duration={1500} origin="top">
+              <br />
               <p className="text-[0.75rem] text-[#4242427A] font-light leading-relaxed">
                 وَالسَّلاَمُ عَلَيْكُمْ وَرَحْمَةُ اللهِ وَبَرَكَاتُهُ
               </p>
