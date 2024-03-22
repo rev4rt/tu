@@ -25,7 +25,6 @@ function Footer() {
               </div>
             </RevealWrapper>
           </div>
-          </div>
           <div className="bg-[linear-gradient(180deg,#e2cdbc00_00%,#e2cdbc_70%)] absolute inset-x-0 bottom-0 -top-24"></div>
           <div className="flex flex-col items-center text-center gap-4 text-white p-6 z-10 relative">
             <br />
