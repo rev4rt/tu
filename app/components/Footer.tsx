@@ -22,18 +22,18 @@ function Footer() {
             <br />
             <RevealWrapper duration={1500} origin="bottom">
               <h1 className="text-4xl font-light mt-2">Akhmad Muhtarom<br />&<br />Ulin Nikmah</h1>
-            </RevealWrapper>
-          </div>
-        </div>
-      </div>
-      <div className="bg-[#e2cdbc] p-20 flex items-center justify-center">
+              <div className="bg-[#e2cdbc] p-20 flex items-center justify-center">
         <a href="#"><img src="/images/footer/logo-final.png" alt="logo" className="w-24" /></a>
         </div>
-      <div className="bg-[#e2cdbc] p-20 flex items-center justify-center">
+              <div className="bg-[#e2cdbc] p-20 flex items-center justify-center">
               <p className="text-[0.75rem] text-center text-white font-light leading-relaxed">
                Copyright © {new Date().getFullYear()} <a href="#">RTPROJEX</a>
               </p>
         </div>
+            </RevealWrapper>
+          </div>
+        </div>
+      </div>
     </section>
   );
 }
