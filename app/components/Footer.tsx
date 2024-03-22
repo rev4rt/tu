@@ -13,9 +13,10 @@ function Footer() {
             style={{ backdropFilter: "blur(6px)" }}>Merupakan suatu kehormatan dan kebahagiaan bagi kami apabila
                 Bapak/Ibu/Saudara/(i) berkenan hadir dan memberikan doa restu
                 kepada kami. Atas kehadiran dan doanya kami mengucapkan
-                terimakasih.</div>
-              <p className="text-[0.75rem] font-light leading-relaxed">
-                وَالسَّلاَمُ عَلَيْكُمْ وَرَحْمَةُ اللهِ وَبَرَكَاتُهُ</p>
+                terimakasih.
+          <br />
+            وَالسَّلاَمُ عَلَيْكُمْ وَرَحْمَةُ اللهِ وَبَرَكَاتُهُ
+          </div>
            </RevealWrapper>
             <br />
             <br />
