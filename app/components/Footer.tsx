@@ -23,7 +23,7 @@ function Footer() {
             </RevealWrapper>
           </div>
           </div>
-          <div className="flex flex-col items-center text-center gap-4 text-white p-6 z-10 relative">
+          <div className="flex flex-col items-center text-center gap-4 text-[#4242427A] p-6 z-10 relative">
             <br />
             <br />
             <RevealWrapper duration={1500} origin="bottom">
