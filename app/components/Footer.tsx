@@ -8,7 +8,6 @@ function Footer() {
         <div className="relative">
           <div className="bg-[linear-gradient(180deg,#ffffff00_0%,#e2cdbc_67%)] absolute inset-x-0 bottom-0 -top-24"></div>
            <div className="flex flex-col items-center text-center gap-4 text-white p-6 z-10 relative">
-            <div className="absolute inset-0 bg-black/30" />
              <div className="relative py-8 px-10 w-full">
               <div
                 className="bg-[#9C76C222] rounded-tr-[3.125rem] rounded-bl-[3.125rem] absolute inset-x-4 inset-y-0 z-10"
