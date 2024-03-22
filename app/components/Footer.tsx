@@ -9,6 +9,8 @@ function Footer() {
           <div className="bg-[linear-gradient(180deg,#ffffff00_0%,#e2cdbc_67%)] absolute inset-x-0 bottom-0 -top-24"></div>
           <div className="flex flex-col items-center text-center gap-4 text-white p-6 z-10 relative">
             <RevealWrapper duration={1500} origin="top">
+            <div className="bg-[#e2cdbc21] rounded-tr-[3.125rem] rounded-bl-[3.125rem] absolute inset-x-4 inset-y-0 z-10"
+            style={{ backdropFilter: "blur(6px)" }} />
               <p className="text-[0.75rem] font-light leading-relaxed">
                 Merupakan suatu kehormatan dan kebahagiaan bagi kami apabila
                 Bapak/Ibu/Saudara/(i) berkenan hadir dan memberikan doa restu
@@ -21,18 +23,16 @@ function Footer() {
                 وَالسَّلاَمُ عَلَيْكُمْ وَرَحْمَةُ اللهِ وَبَرَكَاتُهُ
               </p>
             </RevealWrapper>
-            <div className="bg-[#e2cdbc21] rounded-tr-[3.125rem] rounded-bl-[3.125rem] absolute inset-x-4 inset-y-0 z-10"
-            style={{ backdropFilter: "blur(6px)" }} />
             <br />
             <br />
             <RevealWrapper duration={1500} origin="bottom">
-              <h1 className="text-4xl font-light mt-2">Lulu & Farhan</h1>
+              <h1 className="text-4xl font-light mt-2">Akhmad Muhtarom <br />&<br />Ulin Nikmah</h1>
             </RevealWrapper>
           </div>
         </div>
       </div>
       <div className="bg-[#e2cdbc] p-20 flex items-center justify-center">
-        <img src="/images/footer/lf.png" alt="logo" className="w-24" />
+        <img src="/images/footer/logo-final.png" alt="logo" className="w-24" />
       </div>
     </section>
   );
