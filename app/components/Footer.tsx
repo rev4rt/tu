@@ -15,7 +15,7 @@ function Footer() {
                 Merupakan suatu kehormatan dan kebahagiaan bagi kami apabila
                 Bapak/Ibu/Saudara/(i) berkenan hadir dan memberikan doa restu
                 kepada kami. Atas kehadiran dan doanya kami mengucapkan
-                terimakasih
+                terimakasih.
               </p>
               <p>وَالسَّلاَمُ عَلَيْكُمْ وَرَحْمَةُ اللهِ وَبَرَكَاتُهُ</p>
            </RevealWrapper>
@@ -24,7 +24,6 @@ function Footer() {
             <RevealWrapper duration={1500} origin="bottom">
               <h1 className="text-4xl font-light mt-2">Akhmad Muhtarom<br />&<br />Ulin Nikmah</h1>
             </RevealWrapper>
-            </div>
           </div>
         </div>
       </div>
