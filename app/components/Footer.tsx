@@ -6,16 +6,11 @@ function Footer() {
     <section id="footer">
       
       <div className="h-screen bg-[url('/images/footer/bg3.jpeg')] bg-cover bg-[47.5%] bg-no-repeat flex items-end">
-        
         <div className="relative">
-
-          
         <div className="flex flex-col items-center text-center gap-4 text-[#4242427A] p-6 z-10 relative">
           <RevealWrapper duration={4000} origin="bottom">
-              
-                className="font-bold text-sm bg-[#e2cdbc36] border border-[#bdb08f8c] rounded-lg flex items-center gap-2 px-6 py-3 mt-6 hover:scale-90 ease-linear duration-[0.2s]"
+               <p className="font-bold text-sm bg-[#e2cdbc36] border border-[#bdb08f8c] rounded-lg flex items-center gap-2 px-6 py-3 mt-6 hover:scale-90 ease-linear duration-[0.2s]"
               >
-                
                 <span>
                 <p className="text-[0.75rem] font-light leading-relaxed">
                 Merupakan suatu kehormatan dan kebahagiaan bagi kami apabila
