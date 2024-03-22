@@ -12,14 +12,6 @@ function Footer() {
             className="bg-[#e2cdbc21] rounded-tr-[3.125rem] rounded-bl-[3.125rem] absolute inset-x-4 inset-y-0 z-10"
             style={{ backdropFilter: "blur(6px)" }}
           />
-          <div className="relative z-20">
-            <RevealWrapper duration={1500} origin="right">
-              <p className="text-sm font-light">Merupakan suatu kehormatan dan kebahagiaan bagi kami apabila
-                Bapak/Ibu/Saudara/(i) berkenan hadir dan memberikan doa restu
-                kepada kami. Atas kehadiran dan doanya kami mengucapkan
-                terimakasih.</p>
-            </RevealWrapper>
-          </div>
           <div className="flex flex-col items-center text-center gap-4 text-[#101010] p-6 z-10 relative">
             <RevealWrapper duration={1500} origin="top">
               <p className="text-[0.75rem] font-light leading-relaxed">
@@ -28,12 +20,9 @@ function Footer() {
                 kepada kami. Atas kehadiran dan doanya kami mengucapkan
                 terimakasih
               </p>
-            </RevealWrapper>
-            <RevealWrapper duration={1500} origin="top">
-              <p className="text-[0.75rem] font-light leading-relaxed">
                 وَالسَّلاَمُ عَلَيْكُمْ وَرَحْمَةُ اللهِ وَبَرَكَاتُهُ
               </p>
-            </RevealWrapper>
+           </RevealWrapper>
             <br />
             <br />
             <RevealWrapper duration={1500} origin="bottom">
