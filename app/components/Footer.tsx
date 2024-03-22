@@ -32,6 +32,11 @@ function Footer() {
       <div className="bg-[#e2cdbc] p-20 flex items-center justify-center">
         <img src="/images/footer/logo-final.png" alt="logo" className="w-24" />
       </div>
+                  <RevealWrapper duration={1500} origin="top">
+              <p className="text-[0.75rem] font-light leading-relaxed">
+               Copyright © 2024 RTPROJEX.
+              </p>
+            </RevealWrapper>
     </section>
   );
 }
