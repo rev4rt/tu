@@ -29,7 +29,7 @@ function Footer() {
                 وَالسَّلاَمُ عَلَيْكُمْ وَرَحْمَةُ اللهِ وَبَرَكَاتُهُ
               </p>
 
-              </div
+              </div>
                 </div>
             </RevealWrapper>
             <br />
