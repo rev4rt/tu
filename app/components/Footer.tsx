@@ -17,7 +17,6 @@ function Footer() {
               <p className="text-sm font-light">WEDDING INVITATION</p>
               <h1 className="text-3xl font-light mt-2 mb-4">Lulu & Farhan</h1>
             </RevealWrapper>
-        </div>
       </div>
       <div className="bg-[#e2cdbc] p-20 flex items-center justify-center">
         <img src="/images/footer/logo-final.png" alt="logo" className="w-24" />
