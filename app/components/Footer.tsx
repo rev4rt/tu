@@ -16,7 +16,6 @@ function Footer() {
             style={{ backdropFilter: "blur(6px)" }}
           />
           <div className="relative z-20">
-              
               <p className="text-[0.75rem] font-light leading-relaxed">
                 Merupakan suatu kehormatan dan kebahagiaan bagi kami apabila
                 Bapak/Ibu/Saudara/(i) berkenan hadir dan memberikan doa restu
@@ -28,8 +27,6 @@ function Footer() {
               <p className="text-[0.75rem] font-light leading-relaxed">
                 وَالسَّلاَمُ عَلَيْكُمْ وَرَحْمَةُ اللهِ وَبَرَكَاتُهُ
               </p>
-
-              </div>
                 </div>
             </RevealWrapper>
             <br />
