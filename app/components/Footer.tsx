@@ -9,7 +9,7 @@ function Footer() {
           <div className="bg-[linear-gradient(180deg,#ffffff00_0%,#e2cdbc_67%)] absolute inset-x-0 bottom-0 -top-24"></div>
         <div className="relative py-8 px-10 w-full">
           <div
-            className="bg-[#ffffff21] rounded-sm-[3.25rem] absolute inset-x-4 inset-y-0 z-10"
+            className="bg-[#ffffff21] rounded-xl absolute inset-x-4 inset-y-0 z-10"
             style={{ backdropFilter: "blur(6px)" }}
           />
           <div className="relative z-20">
