@@ -10,7 +10,7 @@ function Hero({
 }: {
   setCurrentOverflow: React.Dispatch<React.SetStateAction<string>>;
 }) {
-  const [autoPlay] = useSound("/audio/w.mp3", {
+  const [play] = useSound("/audio/w.mp3", {
     volume: 0.25,
   });
 
@@ -34,7 +34,7 @@ function Hero({
                 href="#countdown"
                 onClick={() => {
                   setCurrentOverflow("auto");
-                  play();
+                  play("auto");
                 }}
                 className="font-bold text-sm bg-[#e2cdbc36] border border-[#bdb08f8c] rounded-lg flex items-center gap-2 px-6 py-3 mt-6 hover:scale-90 ease-linear duration-[0.2s]"
               >
